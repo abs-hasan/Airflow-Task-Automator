@@ -54,11 +54,11 @@ I pull the data from SQL Server, process the data using Python, and then push th
 
 ```
 graph TD;
-    A[SQL Server<br>Opportunity + Partner Tables] --> B[Python<br>(Pandas ETL)];
+    A [SQL Server<br>Opportunity + Partner Tables] --> B[Python <br> (Pandas ETL)];
     B --> C[Filtered + Enriched DataFrame];
-    C --> D[Score Calculation<br>+ Stage Breakdown];
+    C --> D[Score Calculation <br> + Stage Breakdown];
     D --> E[Google Sheets];
-    D --> F[Salesforce API<br>Score Update];
+    D --> F[Salesforce API <br> Score Update];
     A -->|Airflow DAG Trigger| B;
 ```
 
