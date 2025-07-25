@@ -143,6 +143,13 @@ google-auth
 
 ---
 
+## Future Improvements
+- Add error handling with Airflow notifications (e.g., Slack alerts).
+- Optimize SQL queries for large datasets using indexing.
+- Extend to include additional metrics (e.g., revenue, engagement).
+- Integrate with BI tools (e.g., Power BI, Tableau) for real-time dashboards.
+- Enhance logging with structured formats for better monitoring.
+
 ## Code Files
 - [DAG Code](https://github.com/abs-hasan/Airflow-Task-Automator/blob/main/Dag_File.py): Sets up the Airflow schedule and tasks.
 - [Operator Code](https://github.com/abs-hasan/Airflow-Task-Automator/blob/main/Score_Calculation.py): Handles the data processing and connections.
