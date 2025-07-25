@@ -52,7 +52,7 @@ I pull the data from SQL Server, process the data using Python, and then push th
 
 ## 🛠 Architecture Overview
 
-```mermaid
+```
 graph TD;
     A[SQL Server<br>Opportunity + Partner Tables] --> B[Python<br>(Pandas ETL)];
     B --> C[Filtered + Enriched DataFrame];
